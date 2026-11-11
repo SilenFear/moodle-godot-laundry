@@ -1,0 +1,21 @@
+config_version=5
+
+[application]
+config/name="宿舍洗衣日"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=540
+window/size/viewport_height=900
+window/size/window_width_override=540
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.055, 0.09, 0.13, 1)
+
+[gui]
+theme/custom_font="res://assets/NotoSansCJKtc-Regular.otf"
